@@ -16,11 +16,11 @@ VALUES  ("Account Rep", 120000, 1),
         ("Paralegal", 50000, 4),
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES  ("Sleve", "McDichael", 1, null),
-        ("Onson", "Sweemey", 2, 1),
-        ("Darryl", "Archideld", 3, null),
-        ("Anatoli", "Smorin", 4, 3),
-        ("Rey", "McSriff", 5, null),
-        ("Mario", "McRlwain", 6, 5),
-        ("Kevin", "Nogilny", 7, null),
-        ("Bobson", "Dugnutt", 8, 7);
+VALUES  ("Sleve", "McDichael", 1, 1),
+        ("Onson", "Sweemey", 2, null),
+        ("Darryl", "Archideld", 4, 2),
+        ("Anatoli", "Smorin", 5, null),
+        ("Rey", "McSriff", 7, 3),
+        ("Mario", "McRlwain", 8, null),
+        ("Kevin", "Nogilny", 10, null),
+        ("Bobson", "Dugnutt", 12, null);

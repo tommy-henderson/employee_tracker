@@ -87,7 +87,7 @@ function addDepartment() {
         return;
       }
       console.log("Added " + answer.department + " to the database")
-      startYourQuery();
+      startScreen();
     });
   });
 };
@@ -125,7 +125,7 @@ function addRole() {
           return;
         }
         console.log("Added " + answers.title + " to the database")
-        startYourQuery();
+        startScreen();
       });
     });
   });
@@ -177,7 +177,7 @@ function addEmployee() {
             return;
           }
           console.log("Added " + answers.first + " " + answers.last + " to the database")
-          startYourQuery();
+          startScreen();
         });
       });
     });
@@ -226,7 +226,7 @@ function updateEmployee() {
             return;
           }
           console.log("Employee role updated")
-          startYourQuery();
+          startScreen();
         });
       });
     });
@@ -243,7 +243,7 @@ function viewDepartments() {
       return;
     }
     console.table(res);
-    startYourQuery();
+    startScreen();
   });
 };
 
@@ -256,7 +256,7 @@ function viewRoles() {
       return;
     }
     console.table(res);
-    startYourQuery();
+    startScreen();
   });
 };
 
@@ -269,7 +269,7 @@ function viewEmployees() {
       return;
     }
     console.table(res);
-    startYourQuery();
+    startScreen();
   });
 };
 
