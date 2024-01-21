@@ -5,15 +5,15 @@ INSERT INTO role (title, salary, department_id)
 VALUES  ("Account Rep", 120000, 1),
         ("Sales Consultant", 80000, 1),
         ("Business Development Manager", 60000, 1),
-        ("Mechanical Engineer", 90000, 2),
         ("Project Leader", 170000, 2),
         ("Software Engineer", 140000, 2),
-        ("Risk Analyst", 95000, 3),
+        ("Hardware Engineer", 90000, 2),
         ("Financial Manager", 200000, 3),
         ("Credit Analyst", 175000, 3),
-        ("Paralegal", 50000, 4),
+        ("Risk Analyst", 95000, 3),
         ("Litigator", 250000, 4),
         ("Legal Counsel", 170000, 4);
+        ("Paralegal", 50000, 4),
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES  ("Sleve", "McDichael", 1, null),
