@@ -12,15 +12,15 @@ VALUES  ("Account Rep", 120000, 1),
         ("Credit Analyst", 175000, 3),
         ("Risk Analyst", 95000, 3),
         ("Litigator", 250000, 4),
-        ("Legal Counsel", 170000, 4);
-        ("Paralegal", 50000, 4),
+        ("Legal Counsel", 170000, 4),
+        ("Paralegal", 50000, 4);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES  ("Sleve", "McDichael", 1, 1),
-        ("Onson", "Sweemey", 2, null),
-        ("Darryl", "Archideld", 4, 2),
-        ("Anatoli", "Smorin", 5, null),
-        ("Rey", "McSriff", 7, 3),
-        ("Mario", "McRlwain", 8, null),
-        ("Kevin", "Nogilny", 10, null),
-        ("Bobson", "Dugnutt", 12, null);
+VALUES  ("Sleve", "McDichael", 1, null),
+        ("Onson", "Sweemey", 2, 1),
+        ("Darryl", "Archideld", 4, null),
+        ("Anatoli", "Smorin", 5, 4),
+        ("Rey", "McSriff", 7, 4),
+        ("Mario", "McRlwain", 1, null),
+        ("Kevin", "Nogilny", 1, 1),
+        ("Bobson", "Dugnutt", 1, 1);
