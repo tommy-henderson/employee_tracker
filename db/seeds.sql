@@ -16,7 +16,7 @@ VALUES  ("Principal Engineer", 145000, 1),
         ("Business Development Rep", 70000, 3),
         ("Litigator", 200000, 4),
         ("Legal Counsel", 180000, 4),
-        ("Paralegal", 90000, 4),
+        ("Paralegal", 90000, 4);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES  ("Sleve", "McDichael",  1, NULL),
