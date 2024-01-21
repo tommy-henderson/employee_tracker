@@ -16,13 +16,13 @@ After starting the application, the user is presented with a number of options. 
 
 ## Credits
 
-Referred to a couple other projects when building my own:
-https://github.com/lenzlee/employee-tracker
-https://github.com/andrewcmcghie/HW--12-Employee-Tracker/tree/main
-- Referred to  both of the above when building out my server.js file
+Referred to the below projects when building my server.js file:
 
-https://github.com/isayani/sql-employee-tracker/tree/main
-- helped me troubleshoot my issue with the foreign key relationship not working
+- https://github.com/lenzlee/employee-tracker
+- https://github.com/andrewcmcghie/HW--12-Employee-Tracker/tree/main
+
+Referred to this project to help me troubleshoot my issue with the foreign key relationship not working:
+- https://github.com/isayani/sql-employee-tracker/tree/main
 
 ## License
 
